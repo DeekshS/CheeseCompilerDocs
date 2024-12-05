@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheddar Script Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        pre {
+            background-color: #e8e8e8;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .code {
+            color: #d14;
+            font-weight: bold;
+        }
+        .key {
+            background-color: #e8e8e8;
+            border-radius: 5px;
+            padding: 5px;
+            color: #4CAF50;
+        }
+        .error {
+            color: red;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cheddar Script Documentation</h1>
+</header>
+
+<section>
+    <h2>Introduction</h2>
+    <p>Welcome to the documentation for <strong>Cheddar Script</strong>! Cheddar Script is a fun, cheese-themed programming language that converts unique cheese-based keywords into Python syntax. Below, you’ll find the key components and error handling for the language.</p>
+</section>
+
+<section>
+    <h2>Cheddar to Python Key</h2>
+    <p>Cheddar Script uses cheese names as keywords that map to standard Python code.</p>
+    <pre>
+{
+    "🧀cheddar🧀": "def",
+    "🧀brie🧀": "if",
+    "🧀provolone🧀": "elif",
+    "🧀gouda🧀": "else",
+    "🧀parmesan🧀": "print",
+    "🧀mozzarella🧀": "for",
+    "🧀ricotta🧀": "while",
+    "🧀gruyere🧀": "import",
+    "🧀feta🧀": "return"
+}
+    </pre>
+</section>
+
+<section>
+    <h2>Error Handling</h2>
+    <p>To ensure smooth Cheddar Script execution, it's essential to handle potential errors. Below are some examples of common errors and how to handle them:</p>
+
+    <h3 class="error">1. Syntax Error</h3>
+    <p>If you forget to close a cheese function or loop, an error will occur. Make sure to properly close your Cheddar Script functions or loops with the correct syntax.</p>
+
+    <h3 class="error">2. Undefined Keyword</h3>
+    <p>If you use an undefined keyword, such as an incorrect cheese name or a typo, the program will throw an error. Double-check the spelling and ensure you're using the correct Cheddar Script keyword.</p>
+
+    <h3 class="error">3. Missing Return Statement</h3>
+    <p>If your function is missing a return statement (using <code>🧀feta🧀</code>), Cheddar Script will not know what to return, causing an issue.</p>
+</section>
+
+<section>
+    <h2>Cheddar Script Example</h2>
+    <p>Here is an example of Cheddar Script, showing how the cheese keywords translate into Python:</p>
+
+    <pre>
+🧀cheddar🧀 say_hello🧀(name):
+    🧀parmesan🧀("Hello, " + name + "!")
+    
+🧀brie🧀 name == "Cheese":
+    🧀say_hello🧀(name)
+🧀gouda🧀:
+    🧀parmesan🧀("No Cheese!")
+    </pre>
+
+    <p>This Cheddar Script translates into the following Python:</p>
+    
+    <pre>
+def say_hello(name):
+    print("Hello, " + name + "!")
+    
+if name == "Cheese":
+    say_hello(name)
+else:
+    print("No Cheese!")
+    </pre>
+</section>
+
+<footer>
+    <p>Cheddar Script Documentation | Created by Cheese Muncher</p>
+</footer>
+
+</body>
+</html>
